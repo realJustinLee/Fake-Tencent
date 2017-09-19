@@ -509,6 +509,7 @@
 				82257E841F712D6E00D58A95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82257E851F712D6E00D58A95 /* Build configuration list for PBXNativeTarget "Fake TencentTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +518,7 @@
 				82257E871F712D6E00D58A95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82257E881F712D6E00D58A95 /* Build configuration list for PBXNativeTarget "Fake TencentUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +527,7 @@
 				82257E8A1F712D6E00D58A95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

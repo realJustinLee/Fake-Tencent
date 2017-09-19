@@ -10,6 +10,10 @@
 
 @interface ViewController : NSViewController
 
+@property IBOutlet NSTextField *username;
+@property IBOutlet NSSecureTextField *password;
+@property IBOutlet NSButton *userRegister;
+@property IBOutlet NSButton *userLogin;
 
 @end
 
