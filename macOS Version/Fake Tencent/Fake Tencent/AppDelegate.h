@@ -7,9 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <db.h>
+#import <stdio.h>
+#import <netinet/in.h>
+#import <sys/socket.h>
+#import <arpa/inet.h>
+#import <string.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 
 @end
+
 

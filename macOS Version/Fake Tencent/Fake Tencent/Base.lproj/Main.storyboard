@@ -717,9 +717,6 @@
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5ap-Sx-8iO">
                                 <rect key="frame" x="342" y="83" width="85.5" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES"/>
-                                <shadow key="shadow">
-                                    <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </shadow>
                                 <buttonCell key="cell" type="push" title="Login" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Azs-u9-wCv">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -742,8 +739,8 @@
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OzZ-YH-Pji">
                                 <rect key="frame" x="216" y="129" width="110" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <shadow key="shadow">
-                                    <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <shadow key="shadow" blurRadius="1">
+                                    <color key="color" name="highlightColor" catalog="System" colorSpace="catalog"/>
                                 </shadow>
                                 <buttonCell key="cell" type="check" title="Remember Me" bezelStyle="regularSquare" imagePosition="left" inset="2" id="LmM-2g-IAH">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -753,6 +750,9 @@
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8en-Ov-vGV">
                                 <rect key="frame" x="337" y="129" width="87" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <shadow key="shadow" blurRadius="1">
+                                    <color key="color" name="highlightColor" catalog="System" colorSpace="catalog"/>
+                                </shadow>
                                 <buttonCell key="cell" type="check" title="Auto Login" bezelStyle="regularSquare" imagePosition="left" inset="2" id="aQG-xw-Izl">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -761,7 +761,7 @@
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fx2-LT-C0T">
                                 <rect key="frame" x="178" y="213" width="284" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <shadow key="shadow">
+                                <shadow key="shadow" blurRadius="2">
                                     <size key="offset" width="2" height="2"/>
                                     <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </shadow>
@@ -962,7 +962,7 @@
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q4d-Gl-Cfd">
                                 <rect key="frame" x="0.0" y="0.0" width="800" height="450"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Earth and Moon" id="l0u-eP-AlX"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Milky Way" id="l0u-eP-AlX"/>
                             </imageView>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5gV-6s-sNV">
                                 <rect key="frame" x="273" y="237" width="255" height="22"/>
@@ -1020,7 +1020,7 @@
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NRf-Dp-zxI">
                                 <rect key="frame" x="340" y="297" width="121" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <shadow key="shadow">
+                                <shadow key="shadow" blurRadius="2">
                                     <size key="offset" width="2" height="2"/>
                                     <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </shadow>
@@ -1033,6 +1033,9 @@
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="siU-4o-dUm">
                                 <rect key="frame" x="285" y="153" width="230" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <shadow key="shadow" blurRadius="1">
+                                    <color key="color" name="highlightColor" catalog="System" colorSpace="catalog"/>
+                                </shadow>
                                 <buttonCell key="cell" type="check" title="I accept the Terms and Conditions" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="BuK-27-r9w">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1057,9 +1060,10 @@
     <resources>
         <image name="Earth and Moon" width="1228.800048828125" height="691.20001220703125"/>
         <image name="El Capitan 2" width="5120" height="3200"/>
+        <image name="Milky Way" width="1228.800048828125" height="691.20001220703125"/>
         <image name="NSActionTemplate" width="14" height="14"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HF9-89-K4I"/>
+        <segue reference="2r7-6o-MfK"/>
     </inferredMetricsTieBreakers>
 </document>
