@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8242A4611F8B4DBA006A037B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A4601F8B4DBA006A037B /* main.swift */; };
+		8242A46F1F8B4FF3006A037B /* TCPBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A4691F8B4FF3006A037B /* TCPBundle.swift */; };
+		8242A4701F8B4FF3006A037B /* UDPBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A46A1F8B4FF3006A037B /* UDPBundle.swift */; };
+		8242A4711F8B4FF3006A037B /* srcUdpSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 8242A46B1F8B4FF3006A037B /* srcUdpSocket.c */; };
+		8242A4721F8B4FF3006A037B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A46C1F8B4FF3006A037B /* Result.swift */; };
+		8242A4731F8B4FF3006A037B /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A46D1F8B4FF3006A037B /* Socket.swift */; };
+		8242A4741F8B4FF3006A037B /* srcTcpSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 8242A46E1F8B4FF3006A037B /* srcTcpSocket.c */; };
+		8242A4761F8B50BE006A037B /* TCP Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A4751F8B50BE006A037B /* TCP Server.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8242A45B1F8B4DBA006A037B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8242A45D1F8B4DBA006A037B /* Fake Tencent Server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Fake Tencent Server"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8242A4601F8B4DBA006A037B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8242A4681F8B4FF2006A037B /* Fake Tencent Server-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fake Tencent Server-Bridging-Header.h"; sourceTree = "<group>"; };
+		8242A4691F8B4FF3006A037B /* TCPBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPBundle.swift; sourceTree = "<group>"; };
+		8242A46A1F8B4FF3006A037B /* UDPBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPBundle.swift; sourceTree = "<group>"; };
+		8242A46B1F8B4FF3006A037B /* srcUdpSocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = srcUdpSocket.c; sourceTree = "<group>"; };
+		8242A46C1F8B4FF3006A037B /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		8242A46D1F8B4FF3006A037B /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		8242A46E1F8B4FF3006A037B /* srcTcpSocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = srcTcpSocket.c; sourceTree = "<group>"; };
+		8242A4751F8B50BE006A037B /* TCP Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TCP Server.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8242A45A1F8B4DBA006A037B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8242A4541F8B4DBA006A037B = {
+			isa = PBXGroup;
+			children = (
+				8242A4671F8B4DCB006A037B /* Sources */,
+				8242A45F1F8B4DBA006A037B /* Fake Tencent Server */,
+				8242A45E1F8B4DBA006A037B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8242A45E1F8B4DBA006A037B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8242A45D1F8B4DBA006A037B /* Fake Tencent Server */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8242A45F1F8B4DBA006A037B /* Fake Tencent Server */ = {
+			isa = PBXGroup;
+			children = (
+				8242A4601F8B4DBA006A037B /* main.swift */,
+				8242A4751F8B50BE006A037B /* TCP Server.swift */,
+			);
+			path = "Fake Tencent Server";
+			sourceTree = "<group>";
+		};
+		8242A4671F8B4DCB006A037B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8242A46C1F8B4FF3006A037B /* Result.swift */,
+				8242A46D1F8B4FF3006A037B /* Socket.swift */,
+				8242A46E1F8B4FF3006A037B /* srcTcpSocket.c */,
+				8242A46B1F8B4FF3006A037B /* srcUdpSocket.c */,
+				8242A4691F8B4FF3006A037B /* TCPBundle.swift */,
+				8242A46A1F8B4FF3006A037B /* UDPBundle.swift */,
+				8242A4681F8B4FF2006A037B /* Fake Tencent Server-Bridging-Header.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8242A45C1F8B4DBA006A037B /* Fake Tencent Server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8242A4641F8B4DBA006A037B /* Build configuration list for PBXNativeTarget "Fake Tencent Server" */;
+			buildPhases = (
+				8242A4591F8B4DBA006A037B /* Sources */,
+				8242A45A1F8B4DBA006A037B /* Frameworks */,
+				8242A45B1F8B4DBA006A037B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fake Tencent Server";
+			productName = "Fake Tencent Server";
+			productReference = 8242A45D1F8B4DBA006A037B /* Fake Tencent Server */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8242A4551F8B4DBA006A037B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "李欣";
+				TargetAttributes = {
+					8242A45C1F8B4DBA006A037B = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8242A4581F8B4DBA006A037B /* Build configuration list for PBXProject "Fake Tencent Server" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8242A4541F8B4DBA006A037B;
+			productRefGroup = 8242A45E1F8B4DBA006A037B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8242A45C1F8B4DBA006A037B /* Fake Tencent Server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8242A4591F8B4DBA006A037B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8242A4701F8B4FF3006A037B /* UDPBundle.swift in Sources */,
+				8242A4761F8B50BE006A037B /* TCP Server.swift in Sources */,
+				8242A4721F8B4FF3006A037B /* Result.swift in Sources */,
+				8242A4731F8B4FF3006A037B /* Socket.swift in Sources */,
+				8242A4741F8B4FF3006A037B /* srcTcpSocket.c in Sources */,
+				8242A4711F8B4FF3006A037B /* srcUdpSocket.c in Sources */,
+				8242A4611F8B4DBA006A037B /* main.swift in Sources */,
+				8242A46F1F8B4FF3006A037B /* TCPBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8242A4621F8B4DBA006A037B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8242A4631F8B4DBA006A037B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		8242A4651F8B4DBA006A037B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Fake Tencent Server-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		8242A4661F8B4DBA006A037B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Fake Tencent Server-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8242A4581F8B4DBA006A037B /* Build configuration list for PBXProject "Fake Tencent Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8242A4621F8B4DBA006A037B /* Debug */,
+				8242A4631F8B4DBA006A037B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8242A4641F8B4DBA006A037B /* Build configuration list for PBXNativeTarget "Fake Tencent Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8242A4651F8B4DBA006A037B /* Debug */,
+				8242A4661F8B4DBA006A037B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8242A4551F8B4DBA006A037B /* Project object */;
+}

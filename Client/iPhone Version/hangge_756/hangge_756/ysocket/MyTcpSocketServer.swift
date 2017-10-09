@@ -107,7 +107,7 @@ class MyTcpSocketServer: NSObject {
         for c: ChatUser in self.clients {
             c.kill()
         }
-        self.log(msg: "server stoped...")
+        self.log(msg: "server stopped...")
     }
 
     //处理连接的客户端
