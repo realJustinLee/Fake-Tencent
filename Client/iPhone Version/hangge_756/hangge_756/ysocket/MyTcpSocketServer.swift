@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Dispatch
 
 //服务器端口
 var serverport = 8080

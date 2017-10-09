@@ -14,7 +14,7 @@
 		8242A4721F8B4FF3006A037B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A46C1F8B4FF3006A037B /* Result.swift */; };
 		8242A4731F8B4FF3006A037B /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A46D1F8B4FF3006A037B /* Socket.swift */; };
 		8242A4741F8B4FF3006A037B /* srcTcpSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 8242A46E1F8B4FF3006A037B /* srcTcpSocket.c */; };
-		8242A4761F8B50BE006A037B /* TCP Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A4751F8B50BE006A037B /* TCP Server.swift */; };
+		8242A4761F8B50BE006A037B /* TCPChatBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242A4751F8B50BE006A037B /* TCPChatBundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,7 +39,7 @@
 		8242A46C1F8B4FF3006A037B /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		8242A46D1F8B4FF3006A037B /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
 		8242A46E1F8B4FF3006A037B /* srcTcpSocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = srcTcpSocket.c; sourceTree = "<group>"; };
-		8242A4751F8B50BE006A037B /* TCP Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TCP Server.swift"; sourceTree = "<group>"; };
+		8242A4751F8B50BE006A037B /* TCPChatBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPChatBundle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				8242A4601F8B4DBA006A037B /* main.swift */,
-				8242A4751F8B50BE006A037B /* TCP Server.swift */,
+				8242A4751F8B50BE006A037B /* TCPChatBundle.swift */,
 			);
 			path = "Fake Tencent Server";
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8242A4701F8B4FF3006A037B /* UDPBundle.swift in Sources */,
-				8242A4761F8B50BE006A037B /* TCP Server.swift in Sources */,
+				8242A4761F8B50BE006A037B /* TCPChatBundle.swift in Sources */,
 				8242A4721F8B4FF3006A037B /* Result.swift in Sources */,
 				8242A4731F8B4FF3006A037B /* Socket.swift in Sources */,
 				8242A4741F8B4FF3006A037B /* srcTcpSocket.c in Sources */,
