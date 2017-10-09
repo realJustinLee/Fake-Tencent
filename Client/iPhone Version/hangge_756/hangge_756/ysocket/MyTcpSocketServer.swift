@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Dispatch
 
 //服务器端口
 var serverport = 8080
@@ -108,7 +107,7 @@ class MyTcpSocketServer: NSObject {
         for c: ChatUser in self.clients {
             c.kill()
         }
-        self.log(msg: "server stopped...")
+        self.log(msg: "server stoped...")
     }
 
     //处理连接的客户端

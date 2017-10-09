@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82B88FC31F8C0BF500E83AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B88FC21F8C0BF500E83AE2 /* AppDelegate.swift */; };
+		82B88FC51F8C0BF500E83AE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B88FC41F8C0BF500E83AE2 /* ViewController.swift */; };
+		82B88FC81F8C0BF500E83AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B88FC61F8C0BF500E83AE2 /* Main.storyboard */; };
+		82B88FCA1F8C0BF500E83AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82B88FC91F8C0BF500E83AE2 /* Assets.xcassets */; };
+		82B88FCD1F8C0BF500E83AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B88FCB1F8C0BF500E83AE2 /* LaunchScreen.storyboard */; };
+		82B88FD81F8C0BF500E83AE2 /* Fake_Tencent_iOS_alphaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B88FD71F8C0BF500E83AE2 /* Fake_Tencent_iOS_alphaTests.swift */; };
+		82B88FE31F8C0BF500E83AE2 /* Fake_Tencent_iOS_alphaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B88FE21F8C0BF500E83AE2 /* Fake_Tencent_iOS_alphaUITests.swift */; };
+		82B88FF81F8C10F500E83AE2 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B88FF21F8C10F400E83AE2 /* ytcpsocket.swift */; };
+		82B88FF91F8C10F500E83AE2 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B88FF31F8C10F400E83AE2 /* yudpsocket.swift */; };
+		82B88FFA1F8C10F500E83AE2 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B88FF41F8C10F400E83AE2 /* ysocket.swift */; };
+		82B88FFB1F8C10F500E83AE2 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 82B88FF51F8C10F500E83AE2 /* ytcpsocket.c */; };
+		82B88FFC1F8C10F500E83AE2 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 82B88FF61F8C10F500E83AE2 /* yudpsocket.c */; };
+		82B88FFD1F8C10F500E83AE2 /* MyTcpSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B88FF71F8C10F500E83AE2 /* MyTcpSocketServer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82B88FD41F8C0BF500E83AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82B88FB71F8C0BF500E83AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B88FBE1F8C0BF500E83AE2;
+			remoteInfo = "Fake Tencent iOS alpha";
+		};
+		82B88FDF1F8C0BF500E83AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82B88FB71F8C0BF500E83AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B88FBE1F8C0BF500E83AE2;
+			remoteInfo = "Fake Tencent iOS alpha";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82B88FBF1F8C0BF500E83AE2 /* Fake Tencent iOS alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fake Tencent iOS alpha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B88FC21F8C0BF500E83AE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82B88FC41F8C0BF500E83AE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82B88FC71F8C0BF500E83AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82B88FC91F8C0BF500E83AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82B88FCC1F8C0BF500E83AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82B88FCE1F8C0BF500E83AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82B88FD31F8C0BF500E83AE2 /* Fake Tencent iOS alphaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fake Tencent iOS alphaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B88FD71F8C0BF500E83AE2 /* Fake_Tencent_iOS_alphaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fake_Tencent_iOS_alphaTests.swift; sourceTree = "<group>"; };
+		82B88FD91F8C0BF500E83AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82B88FDE1F8C0BF500E83AE2 /* Fake Tencent iOS alphaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fake Tencent iOS alphaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B88FE21F8C0BF500E83AE2 /* Fake_Tencent_iOS_alphaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fake_Tencent_iOS_alphaUITests.swift; sourceTree = "<group>"; };
+		82B88FE41F8C0BF500E83AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82B88FF11F8C10F400E83AE2 /* Fake Tencent iOS alpha-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fake Tencent iOS alpha-Bridging-Header.h"; sourceTree = "<group>"; };
+		82B88FF21F8C10F400E83AE2 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		82B88FF31F8C10F400E83AE2 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		82B88FF41F8C10F400E83AE2 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		82B88FF51F8C10F500E83AE2 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		82B88FF61F8C10F500E83AE2 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		82B88FF71F8C10F500E83AE2 /* MyTcpSocketServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTcpSocketServer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82B88FBC1F8C0BF500E83AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B88FD01F8C0BF500E83AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B88FDB1F8C0BF500E83AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82B88FB61F8C0BF500E83AE2 = {
+			isa = PBXGroup;
+			children = (
+				82B88FF01F8C105200E83AE2 /* Source */,
+				82B88FC11F8C0BF500E83AE2 /* Fake Tencent iOS alpha */,
+				82B88FD61F8C0BF500E83AE2 /* Fake Tencent iOS alphaTests */,
+				82B88FE11F8C0BF500E83AE2 /* Fake Tencent iOS alphaUITests */,
+				82B88FC01F8C0BF500E83AE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82B88FC01F8C0BF500E83AE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82B88FBF1F8C0BF500E83AE2 /* Fake Tencent iOS alpha.app */,
+				82B88FD31F8C0BF500E83AE2 /* Fake Tencent iOS alphaTests.xctest */,
+				82B88FDE1F8C0BF500E83AE2 /* Fake Tencent iOS alphaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82B88FC11F8C0BF500E83AE2 /* Fake Tencent iOS alpha */ = {
+			isa = PBXGroup;
+			children = (
+				82B88FF71F8C10F500E83AE2 /* MyTcpSocketServer.swift */,
+				82B88FC21F8C0BF500E83AE2 /* AppDelegate.swift */,
+				82B88FC41F8C0BF500E83AE2 /* ViewController.swift */,
+				82B88FC61F8C0BF500E83AE2 /* Main.storyboard */,
+				82B88FC91F8C0BF500E83AE2 /* Assets.xcassets */,
+				82B88FCB1F8C0BF500E83AE2 /* LaunchScreen.storyboard */,
+				82B88FCE1F8C0BF500E83AE2 /* Info.plist */,
+			);
+			path = "Fake Tencent iOS alpha";
+			sourceTree = "<group>";
+		};
+		82B88FD61F8C0BF500E83AE2 /* Fake Tencent iOS alphaTests */ = {
+			isa = PBXGroup;
+			children = (
+				82B88FD71F8C0BF500E83AE2 /* Fake_Tencent_iOS_alphaTests.swift */,
+				82B88FD91F8C0BF500E83AE2 /* Info.plist */,
+			);
+			path = "Fake Tencent iOS alphaTests";
+			sourceTree = "<group>";
+		};
+		82B88FE11F8C0BF500E83AE2 /* Fake Tencent iOS alphaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82B88FE21F8C0BF500E83AE2 /* Fake_Tencent_iOS_alphaUITests.swift */,
+				82B88FE41F8C0BF500E83AE2 /* Info.plist */,
+			);
+			path = "Fake Tencent iOS alphaUITests";
+			sourceTree = "<group>";
+		};
+		82B88FF01F8C105200E83AE2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				82B88FF41F8C10F400E83AE2 /* ysocket.swift */,
+				82B88FF51F8C10F500E83AE2 /* ytcpsocket.c */,
+				82B88FF21F8C10F400E83AE2 /* ytcpsocket.swift */,
+				82B88FF61F8C10F500E83AE2 /* yudpsocket.c */,
+				82B88FF31F8C10F400E83AE2 /* yudpsocket.swift */,
+				82B88FF11F8C10F400E83AE2 /* Fake Tencent iOS alpha-Bridging-Header.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82B88FBE1F8C0BF500E83AE2 /* Fake Tencent iOS alpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B88FE71F8C0BF500E83AE2 /* Build configuration list for PBXNativeTarget "Fake Tencent iOS alpha" */;
+			buildPhases = (
+				82B88FBB1F8C0BF500E83AE2 /* Sources */,
+				82B88FBC1F8C0BF500E83AE2 /* Frameworks */,
+				82B88FBD1F8C0BF500E83AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fake Tencent iOS alpha";
+			productName = "Fake Tencent iOS alpha";
+			productReference = 82B88FBF1F8C0BF500E83AE2 /* Fake Tencent iOS alpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82B88FD21F8C0BF500E83AE2 /* Fake Tencent iOS alphaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B88FEA1F8C0BF500E83AE2 /* Build configuration list for PBXNativeTarget "Fake Tencent iOS alphaTests" */;
+			buildPhases = (
+				82B88FCF1F8C0BF500E83AE2 /* Sources */,
+				82B88FD01F8C0BF500E83AE2 /* Frameworks */,
+				82B88FD11F8C0BF500E83AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82B88FD51F8C0BF500E83AE2 /* PBXTargetDependency */,
+			);
+			name = "Fake Tencent iOS alphaTests";
+			productName = "Fake Tencent iOS alphaTests";
+			productReference = 82B88FD31F8C0BF500E83AE2 /* Fake Tencent iOS alphaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82B88FDD1F8C0BF500E83AE2 /* Fake Tencent iOS alphaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B88FED1F8C0BF500E83AE2 /* Build configuration list for PBXNativeTarget "Fake Tencent iOS alphaUITests" */;
+			buildPhases = (
+				82B88FDA1F8C0BF500E83AE2 /* Sources */,
+				82B88FDB1F8C0BF500E83AE2 /* Frameworks */,
+				82B88FDC1F8C0BF500E83AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82B88FE01F8C0BF500E83AE2 /* PBXTargetDependency */,
+			);
+			name = "Fake Tencent iOS alphaUITests";
+			productName = "Fake Tencent iOS alphaUITests";
+			productReference = 82B88FDE1F8C0BF500E83AE2 /* Fake Tencent iOS alphaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82B88FB71F8C0BF500E83AE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "李欣";
+				TargetAttributes = {
+					82B88FBE1F8C0BF500E83AE2 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					82B88FD21F8C0BF500E83AE2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82B88FBE1F8C0BF500E83AE2;
+					};
+					82B88FDD1F8C0BF500E83AE2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82B88FBE1F8C0BF500E83AE2;
+					};
+				};
+			};
+			buildConfigurationList = 82B88FBA1F8C0BF500E83AE2 /* Build configuration list for PBXProject "Fake Tencent iOS alpha" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82B88FB61F8C0BF500E83AE2;
+			productRefGroup = 82B88FC01F8C0BF500E83AE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82B88FBE1F8C0BF500E83AE2 /* Fake Tencent iOS alpha */,
+				82B88FD21F8C0BF500E83AE2 /* Fake Tencent iOS alphaTests */,
+				82B88FDD1F8C0BF500E83AE2 /* Fake Tencent iOS alphaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82B88FBD1F8C0BF500E83AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B88FCD1F8C0BF500E83AE2 /* LaunchScreen.storyboard in Resources */,
+				82B88FCA1F8C0BF500E83AE2 /* Assets.xcassets in Resources */,
+				82B88FC81F8C0BF500E83AE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B88FD11F8C0BF500E83AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B88FDC1F8C0BF500E83AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82B88FBB1F8C0BF500E83AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B88FF81F8C10F500E83AE2 /* ytcpsocket.swift in Sources */,
+				82B88FC51F8C0BF500E83AE2 /* ViewController.swift in Sources */,
+				82B88FF91F8C10F500E83AE2 /* yudpsocket.swift in Sources */,
+				82B88FFA1F8C10F500E83AE2 /* ysocket.swift in Sources */,
+				82B88FFB1F8C10F500E83AE2 /* ytcpsocket.c in Sources */,
+				82B88FC31F8C0BF500E83AE2 /* AppDelegate.swift in Sources */,
+				82B88FFC1F8C10F500E83AE2 /* yudpsocket.c in Sources */,
+				82B88FFD1F8C10F500E83AE2 /* MyTcpSocketServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B88FCF1F8C0BF500E83AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B88FD81F8C0BF500E83AE2 /* Fake_Tencent_iOS_alphaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B88FDA1F8C0BF500E83AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B88FE31F8C0BF500E83AE2 /* Fake_Tencent_iOS_alphaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82B88FD51F8C0BF500E83AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82B88FBE1F8C0BF500E83AE2 /* Fake Tencent iOS alpha */;
+			targetProxy = 82B88FD41F8C0BF500E83AE2 /* PBXContainerItemProxy */;
+		};
+		82B88FE01F8C0BF500E83AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82B88FBE1F8C0BF500E83AE2 /* Fake Tencent iOS alpha */;
+			targetProxy = 82B88FDF1F8C0BF500E83AE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82B88FC61F8C0BF500E83AE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82B88FC71F8C0BF500E83AE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82B88FCB1F8C0BF500E83AE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82B88FCC1F8C0BF500E83AE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82B88FE51F8C0BF500E83AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82B88FE61F8C0BF500E83AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82B88FE81F8C0BF500E83AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = "Fake Tencent iOS alpha/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.Fake-Tencent-iOS-alpha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Source/Fake Tencent iOS alpha-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82B88FE91F8C0BF500E83AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = "Fake Tencent iOS alpha/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.Fake-Tencent-iOS-alpha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Source/Fake Tencent iOS alpha-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82B88FEB1F8C0BF500E83AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = "Fake Tencent iOS alphaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.Fake-Tencent-iOS-alphaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fake Tencent iOS alpha.app/Fake Tencent iOS alpha";
+			};
+			name = Debug;
+		};
+		82B88FEC1F8C0BF500E83AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = "Fake Tencent iOS alphaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.Fake-Tencent-iOS-alphaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fake Tencent iOS alpha.app/Fake Tencent iOS alpha";
+			};
+			name = Release;
+		};
+		82B88FEE1F8C0BF500E83AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = "Fake Tencent iOS alphaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.Fake-Tencent-iOS-alphaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fake Tencent iOS alpha";
+			};
+			name = Debug;
+		};
+		82B88FEF1F8C0BF500E83AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = "Fake Tencent iOS alphaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.Fake-Tencent-iOS-alphaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fake Tencent iOS alpha";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82B88FBA1F8C0BF500E83AE2 /* Build configuration list for PBXProject "Fake Tencent iOS alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B88FE51F8C0BF500E83AE2 /* Debug */,
+				82B88FE61F8C0BF500E83AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B88FE71F8C0BF500E83AE2 /* Build configuration list for PBXNativeTarget "Fake Tencent iOS alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B88FE81F8C0BF500E83AE2 /* Debug */,
+				82B88FE91F8C0BF500E83AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B88FEA1F8C0BF500E83AE2 /* Build configuration list for PBXNativeTarget "Fake Tencent iOS alphaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B88FEB1F8C0BF500E83AE2 /* Debug */,
+				82B88FEC1F8C0BF500E83AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B88FED1F8C0BF500E83AE2 /* Build configuration list for PBXNativeTarget "Fake Tencent iOS alphaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B88FEE1F8C0BF500E83AE2 /* Debug */,
+				82B88FEF1F8C0BF500E83AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82B88FB71F8C0BF500E83AE2 /* Project object */;
+}
