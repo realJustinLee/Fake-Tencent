@@ -20,6 +20,7 @@
 		82C7240B1F8B434B00914BE0 /* TCPBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C724041F8B434B00914BE0 /* TCPBundle.swift */; };
 		82C7240C1F8B434B00914BE0 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C724051F8B434B00914BE0 /* Result.swift */; };
 		82C7240D1F8B434B00914BE0 /* srcUdpSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 82C724071F8B434B00914BE0 /* srcUdpSocket.c */; };
+		82D88B381F8BD2A5000B6F19 /* TCPChatBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D88B371F8BD2A5000B6F19 /* TCPChatBundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		82C724041F8B434B00914BE0 /* TCPBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPBundle.swift; sourceTree = "<group>"; };
 		82C724051F8B434B00914BE0 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		82C724071F8B434B00914BE0 /* srcUdpSocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = srcUdpSocket.c; sourceTree = "<group>"; };
+		82D88B371F8BD2A5000B6F19 /* TCPChatBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPChatBundle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				82BFA2691F7A64F60034C319 /* AppDelegate.swift */,
 				82BFA26B1F7A64F60034C319 /* ViewController.swift */,
+				82D88B371F8BD2A5000B6F19 /* TCPChatBundle.swift */,
 				82BFA26D1F7A64F60034C319 /* Main.storyboard */,
 				82BFA2701F7A64F60034C319 /* Assets.xcassets */,
 				82BFA2721F7A64F60034C319 /* LaunchScreen.storyboard */,
@@ -314,6 +317,7 @@
 			files = (
 				82C724091F8B434B00914BE0 /* Socket.swift in Sources */,
 				82C7240D1F8B434B00914BE0 /* srcUdpSocket.c in Sources */,
+				82D88B381F8BD2A5000B6F19 /* TCPChatBundle.swift in Sources */,
 				82C724081F8B434B00914BE0 /* srcTcpSocket.c in Sources */,
 				82BFA26C1F7A64F60034C319 /* ViewController.swift in Sources */,
 				82C7240B1F8B434B00914BE0 /* TCPBundle.swift in Sources */,

@@ -56,7 +56,7 @@ class ViewController: UIViewController {
             }
 
             //连接服务器
-            let (success, msgaaaaaaaa) = self.socketClient!.connect(timeout: 5)
+            let (success, msg) = self.socketClient!.connect(timeout: 5)
             if success {
                 DispatchQueue.main.async {
                     self.alert(msg: "connect success", after: {})
@@ -81,7 +81,7 @@ class ViewController: UIViewController {
                 }
             } else {
                 DispatchQueue.main.async {
-                    self.alert(msg: msgaaaaaaaa, after: {
+                    self.alert(msg: msg, after: {
                     })
                 }
             }

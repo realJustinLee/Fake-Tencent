@@ -8,5 +8,17 @@
 
 import Foundation
 
-print("Hello, World!")
+func localCmdHandler(cmd: String) {
+    /// TODO: 根据指令做出回应
+}
 
+var server: TcpSocketServer?
+server = TcpSocketServer()
+server?.start()
+
+while true {
+    var cmd: String = ""
+    /// TODO: 接受用户输入
+
+    localCmdHandler(cmd: cmd)
+}

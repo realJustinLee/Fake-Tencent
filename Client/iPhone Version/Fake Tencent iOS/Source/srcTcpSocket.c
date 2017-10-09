@@ -76,7 +76,7 @@ int srcTcpSocket_connect(const char *host, int port, int timeout) {
         return -1;
     }
 
-    bcopy(hostEntry->h_addr, (char *) &serverAddress.sin_addr, hostEntry->h_length);
+    bcopy((char *)hostEntry->h_addr, (char *) &serverAddress.sin_addr, hostEntry->h_length);
     serverAddress.sin_family = (sa_family_t) hostEntry->h_addrtype;
     serverAddress.sin_port = htons(port);
     socketFD = socket(hostEntry->h_addrtype, SOCK_STREAM, 0);

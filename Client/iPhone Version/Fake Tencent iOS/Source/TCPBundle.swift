@@ -147,7 +147,8 @@ open class TCPClient: Socket {
      * 读取指定长度的消息
      * 用 message 返回成败
      */
-    open func read(_ expectedLen: Int, timeout: Int = -1) -> [Byte]? {
+    // open func read(_ expectedLen: Int, timeout: Int = -1) -> [Byte]? {
+    open func read(_ expectedLen: Int, timeout: Int = 1) -> [Byte]? {
         guard let fd: Int32 = self.fd else {
             return nil
         }

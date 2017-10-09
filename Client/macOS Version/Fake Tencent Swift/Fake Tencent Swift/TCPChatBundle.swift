@@ -7,10 +7,11 @@
 //
 
 import Foundation
+import Cocoa
 import Dispatch
 
-/// 服务器地址设定
-// let serverAddress = "127.0.0.1" // "139.129.46.224"
+// 服务器地址设定
+let serverAddress = "127.0.0.1" // "139.129.46.224"
 
 /// 定义服务器端口
 let serverPort: Int32 = 5005
@@ -18,7 +19,7 @@ let serverPort: Int32 = 5005
 /// TCP 服务端类
 class TcpSocketServer: NSObject {
     var clients: [ChatUser] = []
-    var server: TCPServer = TCPServer(address: "127.0.0.1", port: serverPort)
+    var server: TCPServer = TCPServer(address: serverAddress, port: serverPort)
     var serverRunning: Bool = false
 
     /// 启动服务

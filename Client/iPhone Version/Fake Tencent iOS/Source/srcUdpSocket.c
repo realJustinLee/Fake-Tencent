@@ -123,7 +123,7 @@ int srcUdpSocket_get_server_ip(char *host, char *ip) {
         return -1;
     }
 
-    bcopy(hostEntry->h_addr, (char *) &address.sin_addr, hostEntry->h_length);
+    bcopy((char *)hostEntry->h_addr, (char *) &address.sin_addr, hostEntry->h_length);
     char *clientIP = inet_ntoa(address.sin_addr);
     memcpy(ip, clientIP, strlen(clientIP));
 
