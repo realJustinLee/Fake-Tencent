@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8243A32F1F950DEB005A54F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243A32E1F950DEB005A54F6 /* AppDelegate.swift */; };
+		8243A3311F950DEB005A54F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243A3301F950DEB005A54F6 /* ViewController.swift */; };
+		8243A3341F950DEB005A54F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8243A3321F950DEB005A54F6 /* Main.storyboard */; };
+		8243A3361F950DEB005A54F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8243A3351F950DEB005A54F6 /* Assets.xcassets */; };
+		8243A3391F950DEB005A54F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8243A3371F950DEB005A54F6 /* LaunchScreen.storyboard */; };
+		8243A3441F950DEC005A54F6 /* BotChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243A3431F950DEC005A54F6 /* BotChatTests.swift */; };
+		8243A34F1F950DEC005A54F6 /* BotChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243A34E1F950DEC005A54F6 /* BotChatUITests.swift */; };
+		8243A35D1F9515CF005A54F6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8243A35C1F9515CF005A54F6 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8243A3401F950DEC005A54F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8243A3231F950DEB005A54F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8243A32A1F950DEB005A54F6;
+			remoteInfo = BotChat;
+		};
+		8243A34B1F950DEC005A54F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8243A3231F950DEB005A54F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8243A32A1F950DEB005A54F6;
+			remoteInfo = BotChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8243A32B1F950DEB005A54F6 /* BotChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BotChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8243A32E1F950DEB005A54F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8243A3301F950DEB005A54F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8243A3331F950DEB005A54F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8243A3351F950DEB005A54F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8243A3381F950DEB005A54F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8243A33A1F950DEB005A54F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8243A33F1F950DEC005A54F6 /* BotChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8243A3431F950DEC005A54F6 /* BotChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotChatTests.swift; sourceTree = "<group>"; };
+		8243A3451F950DEC005A54F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8243A34A1F950DEC005A54F6 /* BotChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8243A34E1F950DEC005A54F6 /* BotChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotChatUITests.swift; sourceTree = "<group>"; };
+		8243A3501F950DEC005A54F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8243A35C1F9515CF005A54F6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8243A3281F950DEB005A54F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8243A33C1F950DEC005A54F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8243A3471F950DEC005A54F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8243A3221F950DEB005A54F6 = {
+			isa = PBXGroup;
+			children = (
+				8243A35C1F9515CF005A54F6 /* Podfile */,
+				8243A32D1F950DEB005A54F6 /* BotChat */,
+				8243A3421F950DEC005A54F6 /* BotChatTests */,
+				8243A34D1F950DEC005A54F6 /* BotChatUITests */,
+				8243A32C1F950DEB005A54F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8243A32C1F950DEB005A54F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8243A32B1F950DEB005A54F6 /* BotChat.app */,
+				8243A33F1F950DEC005A54F6 /* BotChatTests.xctest */,
+				8243A34A1F950DEC005A54F6 /* BotChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8243A32D1F950DEB005A54F6 /* BotChat */ = {
+			isa = PBXGroup;
+			children = (
+				8243A32E1F950DEB005A54F6 /* AppDelegate.swift */,
+				8243A3301F950DEB005A54F6 /* ViewController.swift */,
+				8243A3321F950DEB005A54F6 /* Main.storyboard */,
+				8243A3351F950DEB005A54F6 /* Assets.xcassets */,
+				8243A3371F950DEB005A54F6 /* LaunchScreen.storyboard */,
+				8243A33A1F950DEB005A54F6 /* Info.plist */,
+			);
+			path = BotChat;
+			sourceTree = "<group>";
+		};
+		8243A3421F950DEC005A54F6 /* BotChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				8243A3431F950DEC005A54F6 /* BotChatTests.swift */,
+				8243A3451F950DEC005A54F6 /* Info.plist */,
+			);
+			path = BotChatTests;
+			sourceTree = "<group>";
+		};
+		8243A34D1F950DEC005A54F6 /* BotChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8243A34E1F950DEC005A54F6 /* BotChatUITests.swift */,
+				8243A3501F950DEC005A54F6 /* Info.plist */,
+			);
+			path = BotChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8243A32A1F950DEB005A54F6 /* BotChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8243A3531F950DEC005A54F6 /* Build configuration list for PBXNativeTarget "BotChat" */;
+			buildPhases = (
+				8243A3271F950DEB005A54F6 /* Sources */,
+				8243A3281F950DEB005A54F6 /* Frameworks */,
+				8243A3291F950DEB005A54F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BotChat;
+			productName = BotChat;
+			productReference = 8243A32B1F950DEB005A54F6 /* BotChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8243A33E1F950DEC005A54F6 /* BotChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8243A3561F950DEC005A54F6 /* Build configuration list for PBXNativeTarget "BotChatTests" */;
+			buildPhases = (
+				8243A33B1F950DEC005A54F6 /* Sources */,
+				8243A33C1F950DEC005A54F6 /* Frameworks */,
+				8243A33D1F950DEC005A54F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8243A3411F950DEC005A54F6 /* PBXTargetDependency */,
+			);
+			name = BotChatTests;
+			productName = BotChatTests;
+			productReference = 8243A33F1F950DEC005A54F6 /* BotChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8243A3491F950DEC005A54F6 /* BotChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8243A3591F950DEC005A54F6 /* Build configuration list for PBXNativeTarget "BotChatUITests" */;
+			buildPhases = (
+				8243A3461F950DEC005A54F6 /* Sources */,
+				8243A3471F950DEC005A54F6 /* Frameworks */,
+				8243A3481F950DEC005A54F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8243A34C1F950DEC005A54F6 /* PBXTargetDependency */,
+			);
+			name = BotChatUITests;
+			productName = BotChatUITests;
+			productReference = 8243A34A1F950DEC005A54F6 /* BotChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8243A3231F950DEB005A54F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "李欣";
+				TargetAttributes = {
+					8243A32A1F950DEB005A54F6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					8243A33E1F950DEC005A54F6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8243A32A1F950DEB005A54F6;
+					};
+					8243A3491F950DEC005A54F6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8243A32A1F950DEB005A54F6;
+					};
+				};
+			};
+			buildConfigurationList = 8243A3261F950DEB005A54F6 /* Build configuration list for PBXProject "BotChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8243A3221F950DEB005A54F6;
+			productRefGroup = 8243A32C1F950DEB005A54F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8243A32A1F950DEB005A54F6 /* BotChat */,
+				8243A33E1F950DEC005A54F6 /* BotChatTests */,
+				8243A3491F950DEC005A54F6 /* BotChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8243A3291F950DEB005A54F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8243A3391F950DEB005A54F6 /* LaunchScreen.storyboard in Resources */,
+				8243A3361F950DEB005A54F6 /* Assets.xcassets in Resources */,
+				8243A35D1F9515CF005A54F6 /* Podfile in Resources */,
+				8243A3341F950DEB005A54F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8243A33D1F950DEC005A54F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8243A3481F950DEC005A54F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8243A3271F950DEB005A54F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8243A3311F950DEB005A54F6 /* ViewController.swift in Sources */,
+				8243A32F1F950DEB005A54F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8243A33B1F950DEC005A54F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8243A3441F950DEC005A54F6 /* BotChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8243A3461F950DEC005A54F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8243A34F1F950DEC005A54F6 /* BotChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8243A3411F950DEC005A54F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8243A32A1F950DEB005A54F6 /* BotChat */;
+			targetProxy = 8243A3401F950DEC005A54F6 /* PBXContainerItemProxy */;
+		};
+		8243A34C1F950DEC005A54F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8243A32A1F950DEB005A54F6 /* BotChat */;
+			targetProxy = 8243A34B1F950DEC005A54F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8243A3321F950DEB005A54F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8243A3331F950DEB005A54F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8243A3371F950DEB005A54F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8243A3381F950DEB005A54F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8243A3511F950DEC005A54F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8243A3521F950DEC005A54F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8243A3541F950DEC005A54F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = BotChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.BotChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8243A3551F950DEC005A54F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = BotChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.BotChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8243A3571F950DEC005A54F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = BotChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.BotChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BotChat.app/BotChat";
+			};
+			name = Debug;
+		};
+		8243A3581F950DEC005A54F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = BotChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.BotChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BotChat.app/BotChat";
+			};
+			name = Release;
+		};
+		8243A35A1F950DEC005A54F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = BotChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.BotChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BotChat;
+			};
+			name = Debug;
+		};
+		8243A35B1F950DEC005A54F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = BotChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.BotChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BotChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8243A3261F950DEB005A54F6 /* Build configuration list for PBXProject "BotChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8243A3511F950DEC005A54F6 /* Debug */,
+				8243A3521F950DEC005A54F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8243A3531F950DEC005A54F6 /* Build configuration list for PBXNativeTarget "BotChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8243A3541F950DEC005A54F6 /* Debug */,
+				8243A3551F950DEC005A54F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8243A3561F950DEC005A54F6 /* Build configuration list for PBXNativeTarget "BotChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8243A3571F950DEC005A54F6 /* Debug */,
+				8243A3581F950DEC005A54F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8243A3591F950DEC005A54F6 /* Build configuration list for PBXNativeTarget "BotChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8243A35A1F950DEC005A54F6 /* Debug */,
+				8243A35B1F950DEC005A54F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8243A3231F950DEB005A54F6 /* Project object */;
+}
