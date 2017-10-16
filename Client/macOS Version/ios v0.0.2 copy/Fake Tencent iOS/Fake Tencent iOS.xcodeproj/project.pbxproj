@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8275B2EB1F9531B700DD509B /* TCP_Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8275B2EA1F9531B700DD509B /* TCP_Bundle.swift */; };
+		82E11F301F95284F003C3520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E11F2F1F95284F003C3520 /* AppDelegate.swift */; };
+		82E11F321F95284F003C3520 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E11F311F95284F003C3520 /* ViewController.swift */; };
+		82E11F351F95284F003C3520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E11F331F95284F003C3520 /* Main.storyboard */; };
+		82E11F371F95284F003C3520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E11F361F95284F003C3520 /* Assets.xcassets */; };
+		82E11F3A1F95284F003C3520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E11F381F95284F003C3520 /* LaunchScreen.storyboard */; };
+		82E11F451F95284F003C3520 /* Fake_Tencent_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E11F441F95284F003C3520 /* Fake_Tencent_iOSTests.swift */; };
+		82E11F501F95284F003C3520 /* Fake_Tencent_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E11F4F1F95284F003C3520 /* Fake_Tencent_iOSUITests.swift */; };
+		96A611816E7C6BB0E3D8108B /* Pods_Fake_Tencent_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17DBA413F4E1B8557CA49DF /* Pods_Fake_Tencent_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82E11F411F95284F003C3520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82E11F241F95284F003C3520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82E11F2B1F95284F003C3520;
+			remoteInfo = "Fake Tencent iOS";
+		};
+		82E11F4C1F95284F003C3520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82E11F241F95284F003C3520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82E11F2B1F95284F003C3520;
+			remoteInfo = "Fake Tencent iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8275B2EA1F9531B700DD509B /* TCP_Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCP_Bundle.swift; sourceTree = "<group>"; };
+		82E11F2C1F95284F003C3520 /* Fake Tencent iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fake Tencent iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E11F2F1F95284F003C3520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82E11F311F95284F003C3520 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82E11F341F95284F003C3520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82E11F361F95284F003C3520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82E11F391F95284F003C3520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82E11F3B1F95284F003C3520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E11F401F95284F003C3520 /* Fake Tencent iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fake Tencent iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E11F441F95284F003C3520 /* Fake_Tencent_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fake_Tencent_iOSTests.swift; sourceTree = "<group>"; };
+		82E11F461F95284F003C3520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E11F4B1F95284F003C3520 /* Fake Tencent iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fake Tencent iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E11F4F1F95284F003C3520 /* Fake_Tencent_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fake_Tencent_iOSUITests.swift; sourceTree = "<group>"; };
+		82E11F511F95284F003C3520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6E4A368DD744C043F08652 /* Pods-Fake Tencent iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fake Tencent iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fake Tencent iOS/Pods-Fake Tencent iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B17DBA413F4E1B8557CA49DF /* Pods_Fake_Tencent_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fake_Tencent_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE12296FE7BBD6267BFFA117 /* Pods-Fake Tencent iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fake Tencent iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fake Tencent iOS/Pods-Fake Tencent iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82E11F291F95284F003C3520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A611816E7C6BB0E3D8108B /* Pods_Fake_Tencent_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E11F3D1F95284F003C3520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E11F481F95284F003C3520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82E11F231F95284F003C3520 = {
+			isa = PBXGroup;
+			children = (
+				82E11F2E1F95284F003C3520 /* Fake Tencent iOS */,
+				82E11F431F95284F003C3520 /* Fake Tencent iOSTests */,
+				82E11F4E1F95284F003C3520 /* Fake Tencent iOSUITests */,
+				82E11F2D1F95284F003C3520 /* Products */,
+				E5ED2BCEC7205EC12F551077 /* Pods */,
+				A19E8733B6134DCAA9E96F9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82E11F2D1F95284F003C3520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82E11F2C1F95284F003C3520 /* Fake Tencent iOS.app */,
+				82E11F401F95284F003C3520 /* Fake Tencent iOSTests.xctest */,
+				82E11F4B1F95284F003C3520 /* Fake Tencent iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82E11F2E1F95284F003C3520 /* Fake Tencent iOS */ = {
+			isa = PBXGroup;
+			children = (
+				82E11F2F1F95284F003C3520 /* AppDelegate.swift */,
+				82E11F311F95284F003C3520 /* ViewController.swift */,
+				8275B2EA1F9531B700DD509B /* TCP_Bundle.swift */,
+				82E11F331F95284F003C3520 /* Main.storyboard */,
+				82E11F361F95284F003C3520 /* Assets.xcassets */,
+				82E11F381F95284F003C3520 /* LaunchScreen.storyboard */,
+				82E11F3B1F95284F003C3520 /* Info.plist */,
+			);
+			path = "Fake Tencent iOS";
+			sourceTree = "<group>";
+		};
+		82E11F431F95284F003C3520 /* Fake Tencent iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				82E11F441F95284F003C3520 /* Fake_Tencent_iOSTests.swift */,
+				82E11F461F95284F003C3520 /* Info.plist */,
+			);
+			path = "Fake Tencent iOSTests";
+			sourceTree = "<group>";
+		};
+		82E11F4E1F95284F003C3520 /* Fake Tencent iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82E11F4F1F95284F003C3520 /* Fake_Tencent_iOSUITests.swift */,
+				82E11F511F95284F003C3520 /* Info.plist */,
+			);
+			path = "Fake Tencent iOSUITests";
+			sourceTree = "<group>";
+		};
+		A19E8733B6134DCAA9E96F9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B17DBA413F4E1B8557CA49DF /* Pods_Fake_Tencent_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5ED2BCEC7205EC12F551077 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E4A368DD744C043F08652 /* Pods-Fake Tencent iOS.debug.xcconfig */,
+				BE12296FE7BBD6267BFFA117 /* Pods-Fake Tencent iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82E11F2B1F95284F003C3520 /* Fake Tencent iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E11F541F95284F003C3520 /* Build configuration list for PBXNativeTarget "Fake Tencent iOS" */;
+			buildPhases = (
+				0FE6A774E771BC0EF249E72C /* [CP] Check Pods Manifest.lock */,
+				82E11F281F95284F003C3520 /* Sources */,
+				82E11F291F95284F003C3520 /* Frameworks */,
+				82E11F2A1F95284F003C3520 /* Resources */,
+				CF1282837B048AD28F45A8DF /* [CP] Embed Pods Frameworks */,
+				4171C568BFB7CBB7E2EC74EF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fake Tencent iOS";
+			productName = "Fake Tencent iOS";
+			productReference = 82E11F2C1F95284F003C3520 /* Fake Tencent iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82E11F3F1F95284F003C3520 /* Fake Tencent iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E11F571F95284F003C3520 /* Build configuration list for PBXNativeTarget "Fake Tencent iOSTests" */;
+			buildPhases = (
+				82E11F3C1F95284F003C3520 /* Sources */,
+				82E11F3D1F95284F003C3520 /* Frameworks */,
+				82E11F3E1F95284F003C3520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82E11F421F95284F003C3520 /* PBXTargetDependency */,
+			);
+			name = "Fake Tencent iOSTests";
+			productName = "Fake Tencent iOSTests";
+			productReference = 82E11F401F95284F003C3520 /* Fake Tencent iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82E11F4A1F95284F003C3520 /* Fake Tencent iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E11F5A1F95284F003C3520 /* Build configuration list for PBXNativeTarget "Fake Tencent iOSUITests" */;
+			buildPhases = (
+				82E11F471F95284F003C3520 /* Sources */,
+				82E11F481F95284F003C3520 /* Frameworks */,
+				82E11F491F95284F003C3520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82E11F4D1F95284F003C3520 /* PBXTargetDependency */,
+			);
+			name = "Fake Tencent iOSUITests";
+			productName = "Fake Tencent iOSUITests";
+			productReference = 82E11F4B1F95284F003C3520 /* Fake Tencent iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82E11F241F95284F003C3520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "李欣";
+				TargetAttributes = {
+					82E11F2B1F95284F003C3520 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					82E11F3F1F95284F003C3520 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82E11F2B1F95284F003C3520;
+					};
+					82E11F4A1F95284F003C3520 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82E11F2B1F95284F003C3520;
+					};
+				};
+			};
+			buildConfigurationList = 82E11F271F95284F003C3520 /* Build configuration list for PBXProject "Fake Tencent iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82E11F231F95284F003C3520;
+			productRefGroup = 82E11F2D1F95284F003C3520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82E11F2B1F95284F003C3520 /* Fake Tencent iOS */,
+				82E11F3F1F95284F003C3520 /* Fake Tencent iOSTests */,
+				82E11F4A1F95284F003C3520 /* Fake Tencent iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82E11F2A1F95284F003C3520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E11F3A1F95284F003C3520 /* LaunchScreen.storyboard in Resources */,
+				82E11F371F95284F003C3520 /* Assets.xcassets in Resources */,
+				82E11F351F95284F003C3520 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E11F3E1F95284F003C3520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E11F491F95284F003C3520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FE6A774E771BC0EF249E72C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4171C568BFB7CBB7E2EC74EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fake Tencent iOS/Pods-Fake Tencent iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF1282837B048AD28F45A8DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fake Tencent iOS/Pods-Fake Tencent iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82E11F281F95284F003C3520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E11F321F95284F003C3520 /* ViewController.swift in Sources */,
+				8275B2EB1F9531B700DD509B /* TCP_Bundle.swift in Sources */,
+				82E11F301F95284F003C3520 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E11F3C1F95284F003C3520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E11F451F95284F003C3520 /* Fake_Tencent_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E11F471F95284F003C3520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E11F501F95284F003C3520 /* Fake_Tencent_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82E11F421F95284F003C3520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82E11F2B1F95284F003C3520 /* Fake Tencent iOS */;
+			targetProxy = 82E11F411F95284F003C3520 /* PBXContainerItemProxy */;
+		};
+		82E11F4D1F95284F003C3520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82E11F2B1F95284F003C3520 /* Fake Tencent iOS */;
+			targetProxy = 82E11F4C1F95284F003C3520 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82E11F331F95284F003C3520 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82E11F341F95284F003C3520 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82E11F381F95284F003C3520 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82E11F391F95284F003C3520 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82E11F521F95284F003C3520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82E11F531F95284F003C3520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82E11F551F95284F003C3520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6E4A368DD744C043F08652 /* Pods-Fake Tencent iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = "Fake Tencent iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.Fake-Tencent-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/** $(SRCROOT)/** /Users/lixin/GitHub/Fake-Tencent/Client/iPhone\\ Version/v0.0.2/Fake\\ Tencent\\ iOS/Pods/Pods/**";
+			};
+			name = Debug;
+		};
+		82E11F561F95284F003C3520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE12296FE7BBD6267BFFA117 /* Pods-Fake Tencent iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = "Fake Tencent iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.Fake-Tencent-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/** $(SRCROOT)/** /Users/lixin/GitHub/Fake-Tencent/Client/iPhone\\ Version/v0.0.2/Fake\\ Tencent\\ iOS/Pods/Pods/**";
+			};
+			name = Release;
+		};
+		82E11F581F95284F003C3520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = "Fake Tencent iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.Fake-Tencent-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fake Tencent iOS.app/Fake Tencent iOS";
+			};
+			name = Debug;
+		};
+		82E11F591F95284F003C3520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = "Fake Tencent iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.Fake-Tencent-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fake Tencent iOS.app/Fake Tencent iOS";
+			};
+			name = Release;
+		};
+		82E11F5B1F95284F003C3520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = "Fake Tencent iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.Fake-Tencent-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fake Tencent iOS";
+			};
+			name = Debug;
+		};
+		82E11F5C1F95284F003C3520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HL98X8KQX5;
+				INFOPLIST_FILE = "Fake Tencent iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lixin-computer.Fake-Tencent-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fake Tencent iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82E11F271F95284F003C3520 /* Build configuration list for PBXProject "Fake Tencent iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E11F521F95284F003C3520 /* Debug */,
+				82E11F531F95284F003C3520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E11F541F95284F003C3520 /* Build configuration list for PBXNativeTarget "Fake Tencent iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E11F551F95284F003C3520 /* Debug */,
+				82E11F561F95284F003C3520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E11F571F95284F003C3520 /* Build configuration list for PBXNativeTarget "Fake Tencent iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E11F581F95284F003C3520 /* Debug */,
+				82E11F591F95284F003C3520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E11F5A1F95284F003C3520 /* Build configuration list for PBXNativeTarget "Fake Tencent iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E11F5B1F95284F003C3520 /* Debug */,
+				82E11F5C1F95284F003C3520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82E11F241F95284F003C3520 /* Project object */;
+}
