@@ -20,6 +20,7 @@
 		58E5DAF51DE2C301008B1519 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 58E5DAF01DE2C301008B1519 /* yudpsocket.c */; };
 		58E5DAF61DE2C301008B1519 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E5DAF11DE2C301008B1519 /* yudpsocket.swift */; };
 		58E5DAF81DE2C32C008B1519 /* MyTcpSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E5DAF71DE2C32C008B1519 /* MyTcpSocketServer.swift */; };
+		825E8C831F95BE5A00F878A5 /* welcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825E8C821F95BE5A00F878A5 /* welcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		58E5DAF01DE2C301008B1519 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
 		58E5DAF11DE2C301008B1519 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
 		58E5DAF71DE2C32C008B1519 /* MyTcpSocketServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTcpSocketServer.swift; path = ysocket/MyTcpSocketServer.swift; sourceTree = "<group>"; };
+		825E8C821F95BE5A00F878A5 /* welcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				58E5DAEC1DE2C301008B1519 /* ysocket */,
 				58E5DABE1DE2C2D8008B1519 /* AppDelegate.swift */,
 				58E5DAF71DE2C32C008B1519 /* MyTcpSocketServer.swift */,
+				825E8C821F95BE5A00F878A5 /* welcomeView.swift */,
 				58E5DAC01DE2C2D8008B1519 /* ViewController.swift */,
 				58E5DAC21DE2C2D8008B1519 /* Main.storyboard */,
 				58E5DAC51DE2C2D8008B1519 /* Assets.xcassets */,
@@ -288,6 +291,7 @@
 			files = (
 				58E5DAF21DE2C301008B1519 /* ysocket.swift in Sources */,
 				58E5DAC11DE2C2D8008B1519 /* ViewController.swift in Sources */,
+				825E8C831F95BE5A00F878A5 /* welcomeView.swift in Sources */,
 				58E5DAF51DE2C301008B1519 /* yudpsocket.c in Sources */,
 				58E5DAF31DE2C301008B1519 /* ytcpsocket.c in Sources */,
 				58E5DABF1DE2C2D8008B1519 /* AppDelegate.swift in Sources */,

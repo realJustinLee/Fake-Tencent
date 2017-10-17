@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Fake_Tencent_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,10 +89,10 @@
             </objects>
             <point key="canvasLocation" x="136.23188405797103" y="131.25"/>
         </scene>
-        <!--World MsgVC-->
+        <!--View Controller-->
         <scene sceneID="Idt-SW-Ck8">
             <objects>
-                <viewController id="JJv-42-m9J" customClass="WorldMsgVC" customModule="Fake_Tencent_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="JJv-42-m9J" customClass="ViewController" customModule="Fake_Tencent_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Bx9-Oo-WDr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -131,13 +131,13 @@
                         <viewLayoutGuide key="safeArea" id="Eh5-cq-t1n"/>
                     </view>
                     <connections>
-                        <outlet property="textFiled" destination="02v-pV-dcx" id="TST-qi-flv"/>
+                        <outlet property="textField" destination="02v-pV-dcx" id="TST-qi-flv"/>
                         <outlet property="textView" destination="liD-Ih-EbH" id="DCR-uG-zUe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iIx-IK-vkv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-757.97101449275374" y="130.43478260869566"/>
+            <point key="canvasLocation" x="1004" y="131"/>
         </scene>
     </scenes>
     <resources>

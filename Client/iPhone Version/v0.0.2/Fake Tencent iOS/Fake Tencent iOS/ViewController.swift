@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
 
     //消息输入框
-    @IBOutlet weak var textFiled: UITextField!
+    @IBOutlet weak var textField: UITextField!
     //消息输出列表
     @IBOutlet weak var textView: UITextView!
 
@@ -93,10 +93,11 @@ class ViewController: UIViewController {
 
     //“发送消息”按钮点击
     @IBAction func sendMsg(_ sender: AnyObject) {
-        let content = textFiled.text!
+        let content = textField.text!
         let message = ["cmd": "msg", "content": content]
         self.sendMessage(msgtosend: message)
-        textFiled.text = nil
+        textField.text = nil
+        textView.text = textView.text + "Sent\n"
     }
 
     //发送消息
@@ -114,9 +115,9 @@ class ViewController: UIViewController {
         let cmd: String = msg["cmd"] as! String
         switch (cmd) {
         case "msg":
-            self.textView.text = self.textView.text +
-                    (msg["from"] as! String) + ": " + (msg["content"] as! String) + "\n"
+            self.textView.text = self.textView.text + (msg["from"] as! String) + ": " + (msg["content"] as! String) + "\n"
         default:
+            print("Unable to handle: ")
             print(msg)
         }
     }

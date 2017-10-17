@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBAction func username(_ sender: Any) {
+    }
+    
     //消息输入框
     @IBOutlet weak var textFiled: UITextField!
     //消息输出列表
@@ -63,6 +65,7 @@ class ViewController: UIViewController {
                 }
 
                 //发送用户名给服务器（这里使用随机生成的）
+                // let msgtosend = ["cmd": "nickname", "nickname": "游客\(Int(arc4random() % 1000))"]
                 let msgtosend = ["cmd": "nickname", "nickname": "游客\(Int(arc4random() % 1000))"]
                 self.sendMessage(msgtosend: msgtosend)
 
