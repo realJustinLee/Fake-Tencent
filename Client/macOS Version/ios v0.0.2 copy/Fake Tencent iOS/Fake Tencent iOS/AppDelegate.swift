@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Fake Tencent iOS
 //
-//  Created by 李欣 on 2017/10/17.
+//  Created by 李欣 on 2017/09/17.
 //  Copyright © 2017年 李欣. All rights reserved.
 //
 

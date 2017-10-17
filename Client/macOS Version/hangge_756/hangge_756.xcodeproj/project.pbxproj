@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58E5DABF1DE2C2D8008B1519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E5DABE1DE2C2D8008B1519 /* AppDelegate.swift */; };
+		58E5DAC11DE2C2D8008B1519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E5DAC01DE2C2D8008B1519 /* ViewController.swift */; };
+		58E5DAC41DE2C2D8008B1519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E5DAC21DE2C2D8008B1519 /* Main.storyboard */; };
+		58E5DAC61DE2C2D8008B1519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E5DAC51DE2C2D8008B1519 /* Assets.xcassets */; };
+		58E5DAC91DE2C2D8008B1519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E5DAC71DE2C2D8008B1519 /* LaunchScreen.storyboard */; };
+		58E5DAD41DE2C2D8008B1519 /* hangge_756Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E5DAD31DE2C2D8008B1519 /* hangge_756Tests.swift */; };
+		58E5DADF1DE2C2D8008B1519 /* hangge_756UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E5DADE1DE2C2D8008B1519 /* hangge_756UITests.swift */; };
+		58E5DAF21DE2C301008B1519 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E5DAED1DE2C301008B1519 /* ysocket.swift */; };
+		58E5DAF31DE2C301008B1519 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 58E5DAEE1DE2C301008B1519 /* ytcpsocket.c */; };
+		58E5DAF41DE2C301008B1519 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E5DAEF1DE2C301008B1519 /* ytcpsocket.swift */; };
+		58E5DAF51DE2C301008B1519 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 58E5DAF01DE2C301008B1519 /* yudpsocket.c */; };
+		58E5DAF61DE2C301008B1519 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E5DAF11DE2C301008B1519 /* yudpsocket.swift */; };
+		58E5DAF81DE2C32C008B1519 /* MyTcpSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E5DAF71DE2C32C008B1519 /* MyTcpSocketServer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58E5DAD01DE2C2D8008B1519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58E5DAB31DE2C2D8008B1519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58E5DABA1DE2C2D8008B1519;
+			remoteInfo = hangge_756;
+		};
+		58E5DADB1DE2C2D8008B1519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58E5DAB31DE2C2D8008B1519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58E5DABA1DE2C2D8008B1519;
+			remoteInfo = hangge_756;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58E5DABB1DE2C2D8008B1519 /* hangge_756.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hangge_756.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E5DABE1DE2C2D8008B1519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58E5DAC01DE2C2D8008B1519 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58E5DAC31DE2C2D8008B1519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58E5DAC51DE2C2D8008B1519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58E5DAC81DE2C2D8008B1519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58E5DACA1DE2C2D8008B1519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58E5DACF1DE2C2D8008B1519 /* hangge_756Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hangge_756Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E5DAD31DE2C2D8008B1519 /* hangge_756Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hangge_756Tests.swift; sourceTree = "<group>"; };
+		58E5DAD51DE2C2D8008B1519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58E5DADA1DE2C2D8008B1519 /* hangge_756UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hangge_756UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E5DADE1DE2C2D8008B1519 /* hangge_756UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hangge_756UITests.swift; sourceTree = "<group>"; };
+		58E5DAE01DE2C2D8008B1519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58E5DAED1DE2C301008B1519 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		58E5DAEE1DE2C301008B1519 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		58E5DAEF1DE2C301008B1519 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		58E5DAF01DE2C301008B1519 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		58E5DAF11DE2C301008B1519 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		58E5DAF71DE2C32C008B1519 /* MyTcpSocketServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTcpSocketServer.swift; path = ysocket/MyTcpSocketServer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58E5DAB81DE2C2D8008B1519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E5DACC1DE2C2D8008B1519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E5DAD71DE2C2D8008B1519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58E5DAB21DE2C2D8008B1519 = {
+			isa = PBXGroup;
+			children = (
+				58E5DABD1DE2C2D8008B1519 /* hangge_756 */,
+				58E5DAD21DE2C2D8008B1519 /* hangge_756Tests */,
+				58E5DADD1DE2C2D8008B1519 /* hangge_756UITests */,
+				58E5DABC1DE2C2D8008B1519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58E5DABC1DE2C2D8008B1519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58E5DABB1DE2C2D8008B1519 /* hangge_756.app */,
+				58E5DACF1DE2C2D8008B1519 /* hangge_756Tests.xctest */,
+				58E5DADA1DE2C2D8008B1519 /* hangge_756UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58E5DABD1DE2C2D8008B1519 /* hangge_756 */ = {
+			isa = PBXGroup;
+			children = (
+				58E5DAEC1DE2C301008B1519 /* ysocket */,
+				58E5DABE1DE2C2D8008B1519 /* AppDelegate.swift */,
+				58E5DAF71DE2C32C008B1519 /* MyTcpSocketServer.swift */,
+				58E5DAC01DE2C2D8008B1519 /* ViewController.swift */,
+				58E5DAC21DE2C2D8008B1519 /* Main.storyboard */,
+				58E5DAC51DE2C2D8008B1519 /* Assets.xcassets */,
+				58E5DAC71DE2C2D8008B1519 /* LaunchScreen.storyboard */,
+				58E5DACA1DE2C2D8008B1519 /* Info.plist */,
+			);
+			path = hangge_756;
+			sourceTree = "<group>";
+		};
+		58E5DAD21DE2C2D8008B1519 /* hangge_756Tests */ = {
+			isa = PBXGroup;
+			children = (
+				58E5DAD31DE2C2D8008B1519 /* hangge_756Tests.swift */,
+				58E5DAD51DE2C2D8008B1519 /* Info.plist */,
+			);
+			path = hangge_756Tests;
+			sourceTree = "<group>";
+		};
+		58E5DADD1DE2C2D8008B1519 /* hangge_756UITests */ = {
+			isa = PBXGroup;
+			children = (
+				58E5DADE1DE2C2D8008B1519 /* hangge_756UITests.swift */,
+				58E5DAE01DE2C2D8008B1519 /* Info.plist */,
+			);
+			path = hangge_756UITests;
+			sourceTree = "<group>";
+		};
+		58E5DAEC1DE2C301008B1519 /* ysocket */ = {
+			isa = PBXGroup;
+			children = (
+				58E5DAED1DE2C301008B1519 /* ysocket.swift */,
+				58E5DAEE1DE2C301008B1519 /* ytcpsocket.c */,
+				58E5DAEF1DE2C301008B1519 /* ytcpsocket.swift */,
+				58E5DAF01DE2C301008B1519 /* yudpsocket.c */,
+				58E5DAF11DE2C301008B1519 /* yudpsocket.swift */,
+			);
+			path = ysocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58E5DABA1DE2C2D8008B1519 /* hangge_756 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58E5DAE31DE2C2D8008B1519 /* Build configuration list for PBXNativeTarget "hangge_756" */;
+			buildPhases = (
+				58E5DAB71DE2C2D8008B1519 /* Sources */,
+				58E5DAB81DE2C2D8008B1519 /* Frameworks */,
+				58E5DAB91DE2C2D8008B1519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hangge_756;
+			productName = hangge_756;
+			productReference = 58E5DABB1DE2C2D8008B1519 /* hangge_756.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58E5DACE1DE2C2D8008B1519 /* hangge_756Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58E5DAE61DE2C2D8008B1519 /* Build configuration list for PBXNativeTarget "hangge_756Tests" */;
+			buildPhases = (
+				58E5DACB1DE2C2D8008B1519 /* Sources */,
+				58E5DACC1DE2C2D8008B1519 /* Frameworks */,
+				58E5DACD1DE2C2D8008B1519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58E5DAD11DE2C2D8008B1519 /* PBXTargetDependency */,
+			);
+			name = hangge_756Tests;
+			productName = hangge_756Tests;
+			productReference = 58E5DACF1DE2C2D8008B1519 /* hangge_756Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58E5DAD91DE2C2D8008B1519 /* hangge_756UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58E5DAE91DE2C2D8008B1519 /* Build configuration list for PBXNativeTarget "hangge_756UITests" */;
+			buildPhases = (
+				58E5DAD61DE2C2D8008B1519 /* Sources */,
+				58E5DAD71DE2C2D8008B1519 /* Frameworks */,
+				58E5DAD81DE2C2D8008B1519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58E5DADC1DE2C2D8008B1519 /* PBXTargetDependency */,
+			);
+			name = hangge_756UITests;
+			productName = hangge_756UITests;
+			productReference = 58E5DADA1DE2C2D8008B1519 /* hangge_756UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58E5DAB31DE2C2D8008B1519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = hangge;
+				TargetAttributes = {
+					58E5DABA1DE2C2D8008B1519 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					58E5DACE1DE2C2D8008B1519 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 58E5DABA1DE2C2D8008B1519;
+					};
+					58E5DAD91DE2C2D8008B1519 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 58E5DABA1DE2C2D8008B1519;
+					};
+				};
+			};
+			buildConfigurationList = 58E5DAB61DE2C2D8008B1519 /* Build configuration list for PBXProject "hangge_756" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58E5DAB21DE2C2D8008B1519;
+			productRefGroup = 58E5DABC1DE2C2D8008B1519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58E5DABA1DE2C2D8008B1519 /* hangge_756 */,
+				58E5DACE1DE2C2D8008B1519 /* hangge_756Tests */,
+				58E5DAD91DE2C2D8008B1519 /* hangge_756UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58E5DAB91DE2C2D8008B1519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E5DAC91DE2C2D8008B1519 /* LaunchScreen.storyboard in Resources */,
+				58E5DAC61DE2C2D8008B1519 /* Assets.xcassets in Resources */,
+				58E5DAC41DE2C2D8008B1519 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E5DACD1DE2C2D8008B1519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E5DAD81DE2C2D8008B1519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58E5DAB71DE2C2D8008B1519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E5DAF21DE2C301008B1519 /* ysocket.swift in Sources */,
+				58E5DAC11DE2C2D8008B1519 /* ViewController.swift in Sources */,
+				58E5DAF51DE2C301008B1519 /* yudpsocket.c in Sources */,
+				58E5DAF31DE2C301008B1519 /* ytcpsocket.c in Sources */,
+				58E5DABF1DE2C2D8008B1519 /* AppDelegate.swift in Sources */,
+				58E5DAF41DE2C301008B1519 /* ytcpsocket.swift in Sources */,
+				58E5DAF61DE2C301008B1519 /* yudpsocket.swift in Sources */,
+				58E5DAF81DE2C32C008B1519 /* MyTcpSocketServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E5DACB1DE2C2D8008B1519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E5DAD41DE2C2D8008B1519 /* hangge_756Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E5DAD61DE2C2D8008B1519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E5DADF1DE2C2D8008B1519 /* hangge_756UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58E5DAD11DE2C2D8008B1519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58E5DABA1DE2C2D8008B1519 /* hangge_756 */;
+			targetProxy = 58E5DAD01DE2C2D8008B1519 /* PBXContainerItemProxy */;
+		};
+		58E5DADC1DE2C2D8008B1519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58E5DABA1DE2C2D8008B1519 /* hangge_756 */;
+			targetProxy = 58E5DADB1DE2C2D8008B1519 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58E5DAC21DE2C2D8008B1519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58E5DAC31DE2C2D8008B1519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58E5DAC71DE2C2D8008B1519 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58E5DAC81DE2C2D8008B1519 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58E5DAE11DE2C2D8008B1519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58E5DAE21DE2C2D8008B1519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58E5DAE41DE2C2D8008B1519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hangge_756/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hangge.hangge-756";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		58E5DAE51DE2C2D8008B1519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hangge_756/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hangge.hangge-756";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		58E5DAE71DE2C2D8008B1519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hangge_756Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hangge.hangge-756Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hangge_756.app/hangge_756";
+			};
+			name = Debug;
+		};
+		58E5DAE81DE2C2D8008B1519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hangge_756Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hangge.hangge-756Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hangge_756.app/hangge_756";
+			};
+			name = Release;
+		};
+		58E5DAEA1DE2C2D8008B1519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hangge_756UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hangge.hangge-756UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hangge_756;
+			};
+			name = Debug;
+		};
+		58E5DAEB1DE2C2D8008B1519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hangge_756UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hangge.hangge-756UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hangge_756;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58E5DAB61DE2C2D8008B1519 /* Build configuration list for PBXProject "hangge_756" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E5DAE11DE2C2D8008B1519 /* Debug */,
+				58E5DAE21DE2C2D8008B1519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58E5DAE31DE2C2D8008B1519 /* Build configuration list for PBXNativeTarget "hangge_756" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E5DAE41DE2C2D8008B1519 /* Debug */,
+				58E5DAE51DE2C2D8008B1519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58E5DAE61DE2C2D8008B1519 /* Build configuration list for PBXNativeTarget "hangge_756Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E5DAE71DE2C2D8008B1519 /* Debug */,
+				58E5DAE81DE2C2D8008B1519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58E5DAE91DE2C2D8008B1519 /* Build configuration list for PBXNativeTarget "hangge_756UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E5DAEA1DE2C2D8008B1519 /* Debug */,
+				58E5DAEB1DE2C2D8008B1519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58E5DAB31DE2C2D8008B1519 /* Project object */;
+}

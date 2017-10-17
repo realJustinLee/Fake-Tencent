@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8210B11D1F954FA900AA9567 /* WorldMsgVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8210B11C1F954FA900AA9567 /* WorldMsgVC.swift */; };
 		8275B2EB1F9531B700DD509B /* TCP_Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8275B2EA1F9531B700DD509B /* TCP_Bundle.swift */; };
 		82E11F301F95284F003C3520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E11F2F1F95284F003C3520 /* AppDelegate.swift */; };
 		82E11F321F95284F003C3520 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E11F311F95284F003C3520 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8210B11C1F954FA900AA9567 /* WorldMsgVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMsgVC.swift; sourceTree = "<group>"; };
 		8275B2EA1F9531B700DD509B /* TCP_Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCP_Bundle.swift; sourceTree = "<group>"; };
 		82E11F2C1F95284F003C3520 /* Fake Tencent iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fake Tencent iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E11F2F1F95284F003C3520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				82E11F2F1F95284F003C3520 /* AppDelegate.swift */,
 				82E11F311F95284F003C3520 /* ViewController.swift */,
+				8210B11C1F954FA900AA9567 /* WorldMsgVC.swift */,
 				8275B2EA1F9531B700DD509B /* TCP_Bundle.swift */,
 				82E11F331F95284F003C3520 /* Main.storyboard */,
 				82E11F361F95284F003C3520 /* Assets.xcassets */,
@@ -340,6 +343,7 @@
 				82E11F321F95284F003C3520 /* ViewController.swift in Sources */,
 				8275B2EB1F9531B700DD509B /* TCP_Bundle.swift in Sources */,
 				82E11F301F95284F003C3520 /* AppDelegate.swift in Sources */,
+				8210B11D1F954FA900AA9567 /* WorldMsgVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
