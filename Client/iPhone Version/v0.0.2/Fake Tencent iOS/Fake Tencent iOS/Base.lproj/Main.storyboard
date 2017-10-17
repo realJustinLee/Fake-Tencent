@@ -89,10 +89,10 @@
             </objects>
             <point key="canvasLocation" x="136.23188405797103" y="131.25"/>
         </scene>
-        <!--View Controller-->
+        <!--World MsgVC-->
         <scene sceneID="Idt-SW-Ck8">
             <objects>
-                <viewController id="JJv-42-m9J" customClass="ViewController" customModule="Fake_Tencent_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="JJv-42-m9J" customClass="WorldMsgVC" customModule="Fake_Tencent_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Bx9-Oo-WDr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -102,21 +102,28 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="02v-pV-dcx">
-                                <rect key="frame" x="20" y="20" width="297" height="30"/>
+                                <rect key="frame" x="20" y="75" width="297" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="liD-Ih-EbH">
-                                <rect key="frame" x="20" y="58" width="374" height="658"/>
+                                <rect key="frame" x="20" y="113" width="374" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Roq-OX-HHf">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="自由聊天" id="gyT-cS-Iil"/>
+                                </items>
+                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rX0-FO-PEB">
-                                <rect key="frame" x="325" y="20" width="69" height="30"/>
+                                <rect key="frame" x="325" y="75" width="69" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="发向世界">
@@ -132,12 +139,13 @@
                     </view>
                     <connections>
                         <outlet property="textField" destination="02v-pV-dcx" id="TST-qi-flv"/>
+                        <outlet property="textFiled" destination="02v-pV-dcx" id="pRS-0Q-jLl"/>
                         <outlet property="textView" destination="liD-Ih-EbH" id="DCR-uG-zUe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iIx-IK-vkv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1004" y="131"/>
+            <point key="canvasLocation" x="1002.8985507246377" y="130.43478260869566"/>
         </scene>
     </scenes>
     <resources>

@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 
         //启动服务器
         socketServer = MyTcpSocketServer()
-        socketServer?.start()
+        // socketServer?.start()
 
         //初始化客户端，并连接服务器
         processClientSocket()

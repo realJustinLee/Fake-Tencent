@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'Fake Tencent Server macOS' do
+  pod 'SwiftSocket'
+end

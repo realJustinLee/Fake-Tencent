@@ -1,0 +1,6 @@
+framework module Pods_Fake_Tencent_Server_macOS {
+  umbrella header "Pods-Fake Tencent Server macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
